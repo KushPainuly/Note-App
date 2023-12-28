@@ -1,0 +1,16 @@
+.form-control {
+    border-color: transparent;
+}
+
+.form-control:focus {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.form-control[readonly]:not([disabled]) {
+    background-color: #fbfbfb;
+}
+
+.styled-col{
+    box-shadow: 10px 20px 29px darkslategrey;
+}
